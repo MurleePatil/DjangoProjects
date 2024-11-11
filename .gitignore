@@ -1,0 +1,69 @@
+# Python bytecode files
+*.pyc
+*.pyo
+__pycache__/
+
+# Django migrations
+*/migrations/*
+
+# Virtual environment folder
+venv/
+env/
+.venv/
+.env/
+
+# .tox
+.tox/
+.nox/
+.coverage
+*.coverage
+*.hypothesis/
+
+# IDE or editor folders (for example, VSCode, PyCharm, etc.)
+.vscode/
+.idea/
+
+# Database files
+db.sqlite3
+
+# Static and media files
+# static/
+# media/
+
+# Local settings
+*.env
+*.local
+
+# Log files
+*.log
+
+# Cache files
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.swp
+*.swo
+
+# MySQL or PostgreSQL database dumps (optional)
+*.sql
+
+# Django secret key
+secret_key.txt
+
+# Coverage directory (for test coverage reports)
+.coverage/
+nosetests.xml
+*.cover
+*.hypothesis/
+
+# Other configuration files to ignore
+*.bak
+*.swp
+*.swo
+
+# Python egg files (if you’re using eggs or if you’re deploying with an egg setup)
+*.egg
+*.egg-info/
+dist/
+build/
